@@ -14,6 +14,7 @@
 		2205E35F1C99888E00334CE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2205E35E1C99888E00334CE3 /* Images.xcassets */; };
 		2205E3621C99888E00334CE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2205E3601C99888E00334CE3 /* LaunchScreen.xib */; };
 		2205E36E1C99888E00334CE3 /* TaskStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2205E36D1C99888E00334CE3 /* TaskStateTests.m */; };
+		2205E3791C998E8B00334CE3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2205E3781C998E8B00334CE3 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2205E3671C99888E00334CE3 /* TaskStateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskStateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2205E36C1C99888E00334CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2205E36D1C99888E00334CE3 /* TaskStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskStateTests.m; sourceTree = "<group>"; };
+		2205E3771C998E8B00334CE3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2205E3781C998E8B00334CE3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		2205E3451C99888E00334CE3 = {
 			isa = PBXGroup;
 			children = (
+				2205E3771C998E8B00334CE3 /* DetailViewController.h */,
+				2205E3781C998E8B00334CE3 /* DetailViewController.m */,
 				2205E3501C99888E00334CE3 /* TaskState */,
 				2205E36A1C99888E00334CE3 /* TaskStateTests */,
 				2205E34F1C99888E00334CE3 /* Products */,
@@ -222,6 +227,7 @@
 				2205E35A1C99888E00334CE3 /* ViewController.m in Sources */,
 				2205E3571C99888E00334CE3 /* AppDelegate.m in Sources */,
 				2205E3541C99888E00334CE3 /* main.m in Sources */,
+				2205E3791C998E8B00334CE3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

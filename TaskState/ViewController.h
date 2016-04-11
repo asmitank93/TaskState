@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    NSArray *arr_st;
+    NSArray *arr_ct;
+    NSArray *arr;
+}
+@property (weak, nonatomic) IBOutlet UITableView *tbl_vw;
 @end
 
